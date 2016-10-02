@@ -38,3 +38,4 @@ Controllers are responsible for providing whatever data or objects are required 
 -- The Form Tag Helper: The Form Tag Helper generates a hidden anti-forgery token that must match the [ValidateAntiForgeryToken] generated anti-forgery token in the Edit method of the Movies controller.
 - When the scaffolding system created the Edit view, it examined the Movie class and created code to render <label> and <input> elements for each property of the class.
 - 'GET' operation should be a safe operation that has no side effects and doesn’t modify your persisted data.
+- Created Account for Team Services 
