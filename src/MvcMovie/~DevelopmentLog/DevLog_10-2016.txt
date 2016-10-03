@@ -45,3 +45,6 @@ Controllers are responsible for providing whatever data or objects are required 
 - For 'dotnet migrations' you have to be in 'src' folder (?)
 -- The migrations add command tells the migration framework to examine the current Movie model with the current Movie DB schema and create the necessary code to migrate the DB to the new model.
 Naming is arbitrary and is used to name the migration file. It’s helpful to use a meaningful name for the migration step.
+- 'DataAnnotations': provides a built-in set of validation attributes that you apply declaratively to any class or property.
+It also contains formatting attributes like DataType that help with formatting and don’t provide any validation.
+- 
