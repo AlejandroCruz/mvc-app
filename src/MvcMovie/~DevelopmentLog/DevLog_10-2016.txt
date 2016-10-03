@@ -42,4 +42,6 @@ Controllers are responsible for providing whatever data or objects are required 
 
 # 10/3/2016
 - Continue tutorial with "Adding a New Field" (https://docs.asp.net/en/latest/tutorials/first-mvc-app/new-field.html#adding-a-new-field)
-- 
+- For 'dotnet migrations' you have to be in 'src' folder (?)
+-- The migrations add command tells the migration framework to examine the current Movie model with the current Movie DB schema and create the necessary code to migrate the DB to the new model.
+Naming is arbitrary and is used to name the migration file. It’s helpful to use a meaningful name for the migration step.
