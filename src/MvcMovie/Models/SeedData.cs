@@ -22,36 +22,36 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                      new Movie
                      {
-                         Title = "When Harry Met Sally",
-                         ReleaseDate = DateTime.Parse("1989-1-11"),
-                         Genre = "Romantic Comedy",
+                         Title = "The Fountain",
+                         ReleaseDate = DateTime.Parse("2006-09-4"),
+                         Genre = "Sci-Fi",
                          Rating = "R",
                          Price = 7.99M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters ",
-                         ReleaseDate = DateTime.Parse("1984-3-13"),
-                         Genre = "Comedy",
+                         Title = "Excalibur",
+                         ReleaseDate = DateTime.Parse("1981-04-10"),
+                         Genre = "Fantasy",
                          Rating = "R",
                          Price = 8.99M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters 2",
-                         ReleaseDate = DateTime.Parse("1986-2-23"),
-                         Genre = "Comedy",
+                         Title = "The Matrix",
+                         ReleaseDate = DateTime.Parse("1999-03-31"),
+                         Genre = "Sci-Fi",
                          Rating = "R",
                          Price = 9.99M
                      },
 
                    new Movie
                    {
-                       Title = "Rio Bravo",
-                       ReleaseDate = DateTime.Parse("1959-4-15"),
-                       Genre = "Western",
+                       Title = "The Last of The Mohicans",
+                       ReleaseDate = DateTime.Parse("1992-09-25"),
+                       Genre = "Historical Drama",
                        Rating = "R",
                        Price = 3.99M
                    }
